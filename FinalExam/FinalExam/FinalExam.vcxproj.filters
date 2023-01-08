@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Includes">
+      <UniqueIdentifier>{d9acc9bc-5919-447c-b813-09ea5f093d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FixedSizeAllocator">
+      <UniqueIdentifier>{987f73fd-761e-412e-9bfd-af7eae872368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeapManager">
+      <UniqueIdentifier>{ca3da5c6-b569-41a8-8c07-03bb682215d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Allocator">
+      <UniqueIdentifier>{7f6dc02a-b325-4243-a817-c752e6dc5da5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeapManager\HeapManager.cpp">
+      <Filter>Source Files\HeapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator\Allocators.cpp">
+      <Filter>Source Files\Allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator\MemorySystem.cpp">
+      <Filter>Source Files\Allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedSizeAllocator\FixedSizeAllocator.cpp">
+      <Filter>Source Files\FixedSizeAllocator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\MemorySystem.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BitArray.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Basic.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BitArray.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\FixedSizeAllocator.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\HeapManager.hpp">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\HeapManager.hxx">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
